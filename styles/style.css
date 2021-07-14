@@ -75,9 +75,8 @@ section.banner{
 }
 .player{
     margin: auto;
-    border: 1px solid;
     padding: 15px;
-    box-shadow: 1px 1px 20px 13px #8080804d;;
+    box-shadow: 1px 1px 20px 13px #8080804d;
 
 }
 .player p{
@@ -89,6 +88,43 @@ section.banner{
     padding-top: 5px;
 }
 
+/* extra */
+.size{
+    display: block;
+    width: 1150px;
+    height: 160px;
+    font-size: 50px;
+    padding-left: 48px;
+    box-shadow: 0px 0px 12px 20px #8080804d;
+    border: rgb(157, 157, 235);
+}
+.margin{
+    margin-top: 40px;
+}
+#head{
+    font-size: 50px;
+    padding: 48px;
+    color: #2562a0;
+}
+.center{
+    margin-top: 20px;
+    text-align: center;
+    padding: 0px 159px;
+}
+#login{
+    display: block;
+    color: rgb(94, 94, 202);
+    margin: auto;
+    padding: 14px;
+    width: 137px;
+    margin: 36px auto;
+    font-size: 20px;
+}
+/* contact */
+
+
+
+
 /* footer */
 
 
@@ -98,7 +134,7 @@ footer.footerSection {
 }
 
 .footerContent img {
-    width: 450px;
+    width: 250px;
 }
 
 .socialIcons a {
@@ -156,6 +192,18 @@ footer.footerSection {
     .players {
         grid-template-columns: repeat(1, 1fr);
     }
+    .size{
+        display: block;
+        width: 100%px;
+        height: 40px;
+        font-size: 20px;
+        padding-left: 10px;
+        box-shadow: 0px 0px 12px 20px #8080804d;
+        border: rgb(157, 157, 235);
+    
+        .center{
+        padding: 0px;
+}
 
     footer.footerSection {
         margin-top: 50px;
@@ -170,6 +218,8 @@ footer.footerSection {
         margin-bottom: 90px;
     }
 
+
+    
 
 }
 
